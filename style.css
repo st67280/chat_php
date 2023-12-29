@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #ff0026;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+#new-question-container {
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+
+}
+
+hr{
+
+    border-color: red ;
+    size: 2px;
+}
+#new-question-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea,
+button {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+
+
+#answer-container {
+    margin-top: 20px;
+}
+
+#messages-container{
+
+
+
+
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#about-description {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#about-description h2 {
+    margin-bottom: 15px;
+}
+
+#about-description p {
+    max-width: 600px; /* Ограничение ширины текста для удобочитаемости */
+    margin: auto; /* Центрирование текста */
+}
+
+
+#team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+

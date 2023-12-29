@@ -1,0 +1,16 @@
+{
+  "faq": [
+    {
+      "question": "What is what?",
+      "answer": "What?"
+    },
+    {
+      "question": "What is 2+2?",
+      "answer": "4"
+    },
+    {
+      "question": "Is this a button?",
+      "answer": "Yes"
+    }
+  ]
+}

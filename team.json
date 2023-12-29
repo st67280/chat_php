@@ -1,0 +1,24 @@
+{
+  "members": [
+    {
+      "name": "Maksim",
+      "photoUrl": "max.jpeg"
+    },
+    {
+      "name": "Imangali",
+      "photoUrl": "iman.webp"
+    },
+    {
+      "name": "Artem",
+      "photoUrl": "banan.jpeg"
+    },
+    {
+      "name": "Mykhailo",
+      "photoUrl": "mish.jpg"
+    },
+    {
+      "name": "Nurkeldi",
+      "photoUrl": "nur.png"
+    }
+  ]
+}
