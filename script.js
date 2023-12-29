@@ -28,7 +28,7 @@ function submitMessage() {
         message: message
     };
 
-    fetch('http://0.0.0.0:8000/submit_message.php', {
+    fetch('http://137.184.45.201:8000/submit_message.php', {
         method: 'POST',
         body: JSON.stringify(data)
     })
@@ -44,7 +44,7 @@ function submitMessage() {
 }
 
 function loadMessages() {
-    fetch('http://0.0.0.0:8000/submit_message.php')
+    fetch('http://137.184.45.201:8000/submit_message.php')
         .then(response => response.json())
         .then(messages => {
             const messagesContainer = document.getElementById('messages-container');
@@ -64,7 +64,7 @@ document.getElementById('about-us-button').addEventListener('click', function() 
 });
 
 document.getElementById('back-button').addEventListener('click', function() {
-    window.location.href = '0.0.0.0:3000/products';
+    window.location.href = '137.184.45.201:3000/products';
 });
 
 document.addEventListener('DOMContentLoaded', () => {
